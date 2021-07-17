@@ -1,0 +1,65 @@
+{
+  "name": "svelte-calculator",
+  "version": "1.0.0",
+  "description": "Svelte calculator Tailwind",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/calculator.svelte",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "svelte",
+    "calculator",
+    "tailwind"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArshdeepSahni/Svelte-calculator-Tailwind.git"
+  },
+  "author": "Arshdeep Singh <arsh22sahni@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "rollup": "^2.45.2",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.37.0"
+  },
+  "homepage": "https://github.com/ArshdeepSahni/Svelte-calculator-Tailwind",
+  "bugs": {
+    "url": "https://github.com/ArshdeepSahni/Svelte-calculator-Tailwind/issues"
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "commondir": "^1.0.1",
+    "brace-expansion": "^1.1.11",
+    "builtin-modules": "^3.2.0",
+    "concat-map": "^0.0.1",
+    "function-bind": "^1.1.1",
+    "fs.realpath": "^1.0.0",
+    "estree-walker": "^2.0.2",
+    "fsevents": "^2.3.2",
+    "has": "^1.0.3",
+    "glob": "^7.1.7",
+    "inherits": "^2.0.4",
+    "inflight": "^1.0.6",
+    "is-core-module": "^2.4.0",
+    "is-module": "^1.0.0",
+    "minimatch": "^3.0.4",
+    "magic-string": "^0.25.7",
+    "is-reference": "^1.2.1",
+    "path-is-absolute": "^1.0.1",
+    "once": "^1.4.0",
+    "require-relative": "^0.8.7",
+    "path-parse": "^1.0.7",
+    "resolve": "^1.20.0",
+    "picomatch": "^2.3.0",
+    "rollup-pluginutils": "^2.8.2",
+    "sourcemap-codec": "^1.4.8",
+    "wrappy": "^1.0.2"
+  }
+}

@@ -1,3 +1,3 @@
-import calculator from './calculator.svelte';
+import Calculator from './Calculator.svelte';
 
-export default calculator;
+export default Calculator;

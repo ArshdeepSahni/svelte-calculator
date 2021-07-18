@@ -8,10 +8,10 @@
   export let normalKeyColor = "";
   export let operatorKeyColor = "";
   export let animation = true;
-  $: opr = "";
-  $: str = "0";
-  $: result = "";
-  $: str2 = "0";
+  let opr = "";
+  let str = "";
+  let result = "";
+  let str2 = "";
   let random = async () => {
     if (animation) {
       console.log(8888 - 888);
@@ -26,6 +26,7 @@
     }
   };
   window.onload = random();
+  window.onload = console.log(str);
   let otherkeys = (key) => {
     if (key == "+/-") {
       if (result.length > 0) {
@@ -57,25 +58,27 @@
     console.log(str2, str, opreator);
     // result = eval(str2 + opreator + str);
     if (opreator == "+") {
-      result = str2 + str;
+      result = (parseFloat(str2) + parseFloat(str)).toString();
+    } else if (opreator == "-") {
+      result = (parseFloat(str2) - parseFloat(str)).toString();
+    } else if (opreator == "*") {
+      result = (parseFloat(str2) * parseFloat(str)).toString();
+    } else if (opreator == "/") {
+      result = (parseFloat(str2) / parseFloat(str)).toString();
     }
-    if (opreator == "-") {
-      result = str2 - str;
-    }
-    if (opreator == "*") {
-      result = str2 * str;
-    }
-    if (opreator == "/") {
-      result = str2 / str;
-    }
+    console.log(result);
     return result;
   };
 
   let clear = () => {
-    random();
-    result = "";
-    str = "";
-    opr = "";
+    setTimeout(() => {
+      random();
+    }, 1000);
+    setTimeout(() => {
+      result = "";
+      str = "";
+      opr = "";
+    }, 1000);
   };
   let normalkeys = (key) => {
     result = result + key;
@@ -103,7 +106,6 @@
     >
       <div class="py-2 overflow-hidden">
         <input
-          disabled
           pattern="[0-9]"
           type=""
           class={`disabled text-7xl font-light px-4 rounded-full shadow-inner bg-gray-200`}

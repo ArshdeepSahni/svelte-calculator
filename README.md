@@ -18,7 +18,7 @@ npm i svelte-calculator
 <br>
 <br>
 
-  <h1 align="center">Data Types in which the given data can be rendered or changed:</h1>
+  <h1 align="center">Props</h1>
 
 <br>
 <br><div align="center">

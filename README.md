@@ -34,6 +34,13 @@ npm i svelte-calculator
 |calculatorBackground|Background Color of Calculator|#ffffff|ColorName or rgb or rgba or Hex|
 |inputBackground|Background Color of Screen of Calculator|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
 
+  
+  
+
+
+https://user-images.githubusercontent.com/56549294/126066513-5445825f-a416-4c73-8ac3-0198e83f4fab.mov
+
+
 
 
 <br>

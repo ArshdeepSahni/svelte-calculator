@@ -26,7 +26,7 @@ npm i svelte-calculator
 
 |Prop|Default Value|Format|
 |---|---|---|
-|size|"100"|Any Size out of [ "0" , "50" , "75" , "90" , "95" , "100" , "105" , "110" , "125" , "150" ]|
+|size|"100"|Any Size out of [ "50" , "75" , "90" , "95" , "100" , "105" , "110" , "125" , "150" ]|
 |normalKeyColor|rgba( 243 , 244 , 246 )|ColorName or rgb or rgba or Hex|
 |operatorKeyColor|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
 |Class|NA|ClassName (String)|

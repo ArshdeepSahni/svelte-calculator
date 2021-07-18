@@ -24,15 +24,15 @@ npm i svelte-calculator
 <br><div align="center">
 
 
-|Prop|Default Value|Format|
-|---|---|---|
-|animation|true|false|
-|size|"100"|Any Size out of [ "50" , "75" , "90" , "95" , "100" , "105" , "110" , "125" , "150" ]|
-|normalKeyColor|rgba( 243 , 244 , 246 )|ColorName or rgb or rgba or Hex|
-|operatorKeyColor|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
-|Class|NA|ClassName (String)|
-|calculatorBackground|#ffffff|ColorName or rgb or rgba or Hex|
-|inputBackground|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
+|Prop|About|Default Value|Format|
+|---|---|---|---|
+|animation|Boolean Value to Enable and Disable Default Animation|true|false|
+|size|Size of Calculator|"100"|Any Size out of [ "50" , "75" , "90" , "95" , "100" , "105" , "110" , "125" , "150" ]|
+|normalKeyColor|Background Color of Normal Numeric Keys of Calculator|rgba( 243 , 244 , 246 )|ColorName or rgb or rgba or Hex|
+|operatorKeyColor|Background Color of Operator Keys of Calculator|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
+|Class|Classes to add to the Calculator Component|NA|ClassName (String)|
+|calculatorBackground|Background Color of Calculator|#ffffff|ColorName or rgb or rgba or Hex|
+|inputBackground|Background Color of Screen of Calculator|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
 
 
 

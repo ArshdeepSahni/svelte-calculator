@@ -26,7 +26,8 @@ npm i svelte-calculator
 
 |Prop|About|Default Value|Format|
 |---|---|---|---|
-|animation|Boolean Value to Enable and Disable Default Animation|true|false|
+|Sound|Key Sounds|true|Boolean|
+|animation|Boolean Value to Enable and Disable Default Animation|true|Boolean|
 |size|Size of Calculator|"100"|Any Size out of [ "50" , "75" , "90" , "95" , "100" , "105" , "110" , "125" , "150" ]|
 |normalKeyColor|Background Color of Normal Numeric Keys of Calculator|rgba( 243 , 244 , 246 )|ColorName or rgb or rgba or Hex|
 |operatorKeyColor|Background Color of Operator Keys of Calculator|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
@@ -34,8 +35,8 @@ npm i svelte-calculator
 |calculatorBackground|Background Color of Calculator|#ffffff|ColorName or rgb or rgba or Hex|
 |inputBackground|Background Color of Screen of Calculator|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
 
-  
-  
+
+
 
 
 https://user-images.githubusercontent.com/56549294/126066513-5445825f-a416-4c73-8ac3-0198e83f4fab.mov

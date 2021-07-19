@@ -1,7 +1,7 @@
 {
   "name": "svelte-calculator",
-  "version": "1.0.6",
-  "description": "Svelte calculator",
+  "version": "1.0.9",
+  "description": "Svelte calculator with Animation and Sounds",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte": "src/Calculator.svelte",

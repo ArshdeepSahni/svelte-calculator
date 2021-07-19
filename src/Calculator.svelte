@@ -3,11 +3,30 @@
   export let size = "100";
   export let calculatorBackground = "";
   export let inputBackground = "";
+  export let Sound = true;
   let width = "25";
   let zeroButtonWidth = (parseFloat(width) / 2.43).toString();
   export let normalKeyColor = "";
   export let operatorKeyColor = "";
   export let animation = true;
+  var KeyAudio = new Audio("key.wav");
+  let KeyMusic = async () => {
+    if (Sound) {
+      await KeyAudio.play();
+    }
+  };
+  var ClearAudio = new Audio("clear.wav");
+  let ClearMusic = async () => {
+    if (Sound) {
+      await ClearAudio.play();
+    }
+  };
+  var CalculateAudio = new Audio("calculate.wav");
+  let CalculateMusic = async () => {
+    if (Sound) {
+      await CalculateAudio.play();
+    }
+  };
   let opr = "";
   let str = "";
   let result = "";
@@ -28,6 +47,7 @@
   window.onload = random();
   window.onload = console.log(str);
   let otherkeys = (key) => {
+    KeyMusic();
     if (key == "+/-") {
       if (result.length > 0) {
         !result.includes("-")
@@ -52,6 +72,7 @@
     }
   };
   let calculate = (opreator) => {
+    CalculateMusic();
     if (str2[0] == "0") {
       str2 = str2.substring(1);
     }
@@ -72,6 +93,7 @@
 
   let clear = () => {
     setTimeout(() => {
+      ClearMusic();
       random();
     }, 1000);
     setTimeout(() => {
@@ -81,10 +103,12 @@
     }, 1000);
   };
   let normalkeys = (key) => {
+    KeyMusic();
     result = result + key;
     str = str + key;
   };
   let oper = (opt) => {
+    KeyMusic();
     opr = opt;
     str2 = str;
     str = "";

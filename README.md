@@ -11,6 +11,12 @@ npm i svelte-calculator
 " src="https://user-images.githubusercontent.com/56549294/126062896-cbd3acbc-d224-48c9-bcfe-016d38efaf36.png"/></td></tr>
 </table>
 <br>
+  <hr>
+<br>
+<br>  
+<img width="100%" src="https://user-images.githubusercontent.com/56549294/126123837-2a4032c5-18ef-433b-acdb-df84fa2e4b7a.gif"/>
+  
+<br>
 <br>
 <br>
   <hr>
@@ -35,11 +41,6 @@ npm i svelte-calculator
 |calculatorBackground|Background Color of Calculator|#ffffff|ColorName or rgb or rgba or Hex|
 |inputBackground|Background Color of Screen of Calculator|rgba( 229 , 231 , 235 )|ColorName or rgb or rgba or Hex|
 
-
-
-
-
-https://user-images.githubusercontent.com/56549294/126066513-5445825f-a416-4c73-8ac3-0198e83f4fab.mov
 
 
 
